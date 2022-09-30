@@ -3,10 +3,10 @@
   --main-white-color: #fff;
   --main-black-color: #000;
   --main-header-bg-color: linear-gradient(90.05deg, #E47500 -5.66%, #DF7C14 115.63%);
+  --main-btn-color: #DC7000;
 }
 
-/* MIXINS */
-/* poppins-300 - latin */
+/* MIXINS */ /* poppins-300 - latin */
 @font-face {
   font-family: "Poppins";
   font-style: normal;
@@ -14,7 +14,6 @@
   src: local(""), url("../fonts/poppins-v20-latin-300.woff2") format("woff2"), url("../fonts/poppins-v20-latin-300.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
-
 /* poppins-regular - latin */
 @font-face {
   font-family: "Poppins";
@@ -23,7 +22,6 @@
   src: local(""), url("../fonts/poppins-v20-latin-regular.woff2") format("woff2"), url("../fonts/poppins-v20-latin-regular.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
-
 /* poppins-500 - latin */
 @font-face {
   font-family: "Poppins";
@@ -32,7 +30,6 @@
   src: local(""), url("../fonts/poppins-v20-latin-500.woff2") format("woff2"), url("../fonts/poppins-v20-latin-500.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
-
 /* poppins-600 - latin */
 @font-face {
   font-family: "Poppins";
@@ -41,7 +38,6 @@
   src: local(""), url("../fonts/poppins-v20-latin-600.woff2") format("woff2"), url("../fonts/poppins-v20-latin-600.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
-
 /* poppins-700 - latin */
 @font-face {
   font-family: "Poppins";
@@ -50,7 +46,6 @@
   src: local(""), url("../fonts/poppins-v20-latin-700.woff2") format("woff2"), url("../fonts/poppins-v20-latin-700.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
-
 /* rubik-regular - latin */
 @font-face {
   font-family: "Rubik";
@@ -59,7 +54,6 @@
   src: local(""), url("../fonts/rubik-v21-latin-regular.woff2") format("woff2"), url("../fonts/rubik-v21-latin-regular.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
-
 /* rubik-500 - latin */
 @font-face {
   font-family: "Rubik";
@@ -68,7 +62,6 @@
   src: local(""), url("../fonts/rubik-v21-latin-500.woff2") format("woff2"), url("../fonts/rubik-v21-latin-500.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
-
 /* rubik-700 - latin */
 @font-face {
   font-family: "Rubik";
@@ -77,7 +70,6 @@
   src: local(""), url("../fonts/rubik-v21-latin-700.woff2") format("woff2"), url("../fonts/rubik-v21-latin-700.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
-
 /**
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
@@ -122,7 +114,7 @@ h1 {
    */
 hr {
   -webkit-box-sizing: content-box;
-  box-sizing: content-box;
+          box-sizing: content-box;
   /* 1 */
   height: 0;
   /* 1 */
@@ -160,7 +152,7 @@ abbr[title] {
   text-decoration: underline;
   /* 2 */
   -webkit-text-decoration: underline dotted;
-  text-decoration: underline dotted;
+          text-decoration: underline dotted;
   /* 2 */
 }
 
@@ -308,7 +300,7 @@ fieldset {
    */
 legend {
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
   /* 1 */
   color: inherit;
   /* 2 */
@@ -343,7 +335,7 @@ textarea {
 [type=checkbox],
 [type=radio] {
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
   /* 1 */
   padding: 0;
   /* 2 */
@@ -421,19 +413,19 @@ template {
 /* GENERAL */
 * {
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 *::before,
 *::after {
   -webkit-box-sizing: inherit;
-  box-sizing: inherit;
+          box-sizing: inherit;
 }
 
 html {
   height: 100%;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
   scroll-behavior: smooth;
 }
 
@@ -448,8 +440,8 @@ body {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   height: 100%;
   margin: 0;
   font-family: "Poppins", "Arial", sans-serif;
@@ -458,13 +450,130 @@ body {
 /* STICKY-FOOTER */
 .site-main {
   -webkit-box-flex: 1;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
 }
 
-.header {
-  background-image: -o-linear-gradient(359.95deg, #E47500 -5.66%, #DF7C14 115.63%);
-  background-image: linear-gradient(90.05deg, #E47500 -5.66%, #DF7C14 115.63%);
+.header-bottom {
+  background-image: var(--main-header-bg-color);
+  padding: 16px 0;
 }
 
-/*# sourceMappingURL=styles.css.map */
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav-item:nth-child(1) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0;
+  padding: 0;
+}
+.nav-item:nth-child(1)::before {
+  content: "";
+  width: 11px;
+  height: 11px;
+  background-color: #fff;
+  display: inline-block;
+  border-radius: 50%;
+  margin-right: 7px;
+}
+
+.nav-item:nth-child(2) {
+  padding: 0;
+  margin: 0;
+  margin-left: 87.5px;
+}
+
+.nav-item:nth-child(3) {
+  padding: 0;
+  margin: 0;
+  margin-left: 74.85px;
+}
+
+.nav-item:nth-child(4) {
+  padding: 0;
+  margin: 0;
+  margin-left: 64.3px;
+}
+
+.nav-link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 0;
+}
+
+.nav-btn {
+  color: var(--main-btn-color);
+  margin-left: 68px;
+  padding-top: 10.08px;
+  padding-bottom: 11.09px;
+  padding-left: 27.41px;
+  padding-right: 28.46px;
+}
+.nav-btn:hover {
+  color: var(--main-btn-color);
+}
+
+.header-top {
+  padding: 9px 0;
+}
+
+.header-top-link {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 15px;
+  color: #1A1A1A;
+}
+
+.header-top-item:nth-child(1) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 100px;
+}
+.header-top-item:nth-child(1)::before {
+  content: "";
+  background-image: url("../images/location.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 10px;
+  height: 15px;
+  display: inline-block;
+  margin-right: 12.5px;
+}
+
+.header-top-item:nth-child(2) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header-top-item:nth-child(2)::before {
+  content: "";
+  background-image: url("../images/phone.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  margin-right: 12.5px;
+}/*# sourceMappingURL=styles.css.map */
