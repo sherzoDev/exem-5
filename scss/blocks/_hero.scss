@@ -1,5 +1,5 @@
 .hero {
-  background-image: url("../../images/hero-bg.svg"), url("../images/hero-background.svg");
+  background-image: url("../images/hero-bg.svg"), url("../images/hero-background.svg");
   background-position: calc(50% + 300px) calc(50%), calc(50%) calc(50%);
   background-repeat: no-repeat, no-repeat;
   background-size: auto,cover ;
@@ -49,4 +49,50 @@
   padding-bottom: 15px;
   padding-left: 30px;
   padding-right: 31px;
+}
+
+@media only screen and (max-width: 768px) {
+  
+  .hero {
+    background-image: none, none;
+  }
+  
+  .hero {
+    background-image: url("../images/hero-main-bg.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+    padding-bottom: 108px;
+  }
+
+  .hero__wrapper {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .hero-heading {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 155.2%;
+    color: #E87D0E;
+  }
+
+  .hero__title {
+    width: 274px;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 155.2%;
+    color: #000000;    
+  }
+
+  .hero__text {
+    width: 276px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 200%;
+    color: #000000;    
+  }
+
+  
+  
 }

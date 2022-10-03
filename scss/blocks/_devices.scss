@@ -1,0 +1,160 @@
+.devices-box {
+  width: 826px;
+}
+
+.devices-title {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 187.5%;  
+  text-align: center;
+  color: #222222;
+}
+
+.devices-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 187.5%;
+  text-align: center;
+  color: #525252;
+  margin-top: 24px;
+  margin-bottom: 100px;
+}
+
+.devices-item,
+.devices-items {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 187.5%;
+  text-align: center;
+  color: #000000;
+}
+
+.devices-item:nth-child(1) {
+  &::before {
+    content: "";
+    background-image: url("../images/phone-logo.svg");
+    display: inline-block;
+    width: 65px;
+    height: 65px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+  &::after {
+    content: "";
+    background-image: url("../images/brown-arrow.svg");
+    display: inline-block;
+    width: 21px;
+    height: 21px;
+    margin: 0 auto;
+    margin-top: 25.5px;
+  }
+}
+
+.devices-item:nth-child(2) {
+  &::before {
+    content: "";
+    background-image: url("../images/pc.svg");
+    display: inline-block;
+    width: 65px;
+    height: 65px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+  &::after {
+    content: "";
+    background-image: url("../images/brown-arrow.svg");
+    display: inline-block;
+    width: 21px;
+    height: 21px;
+    margin: 0 auto;
+    margin-top: 25.5px;
+  }
+}
+
+.devices-item:nth-child(3) {
+  &::before {
+    content: "";
+    background-image: url("../images/play-station.svg");
+    display: inline-block;
+    width: 65px;
+    height: 65px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+  &::after {
+    content: "";
+    background-image: url("../images/brown-arrow.svg");
+    display: inline-block;
+    width: 21px;
+    height: 21px;
+    margin: 0 auto;
+    margin-top: 25.5px;
+  }
+}
+
+.devices-item:nth-child(4) {
+  &::before {
+    content: "";
+    background-image: url("../images/vr.svg");
+    display: inline-block;
+    width: 65px;
+    height: 65px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+  &::after {
+    content: "";
+    background-image: url("../images/brown-arrow.svg");
+    display: inline-block;
+    width: 21px;
+    height: 21px;
+    margin: 0 auto;
+    margin-top: 25.5px;
+  }
+}
+
+.devices-items:nth-child(1) {
+  &::before {
+    content: "";
+    background-image: url("../images/ar.svg");
+    display: inline-block;
+    width: 65px;
+    height: 65px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+  &::after {
+    content: "";
+    background-image: url("../images/brown-arrow.svg");
+    display: inline-block;
+    width: 21px;
+    height: 21px;
+    margin: 0 auto;
+    margin-top: 25.5px;
+  }
+}
+
+.devices-items:nth-child(2) {
+  &::before {
+    content: "";
+    background-image: url("../images/3dmodeling.svg");
+    display: inline-block;
+    width: 65px;
+    height: 65px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+  &::after {
+    content: "";
+    background-image: url("../images/brown-arrow.svg");
+    display: inline-block;
+    width: 21px;
+    height: 21px;
+    margin: 0 auto;
+    margin-top: 25.5px;
+  }
+}
+
+.devices-items {
+  margin-bottom: 134px;
+}

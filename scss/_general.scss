@@ -23,6 +23,7 @@ img {
 body {
     @include sticky-footer;
     font-family: "Poppins", "Arial", sans-serif;
+    overflow-x: hidden;
 }
 
 /* STICKY-FOOTER */

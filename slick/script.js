@@ -1,4 +1,4 @@
-$(document).on('ready', function() {
+$(document).on('ready', function () {
     $(".vertical-center-4").slick({
         dots: true,
         vertical: true,
@@ -59,4 +59,4 @@ $('.autoplay').slick({
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 2000,
-  });
+});
