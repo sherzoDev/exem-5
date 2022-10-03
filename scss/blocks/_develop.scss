@@ -1,9 +1,5 @@
 .develop {
   margin-top: 83px;
-  background-image: url("../images/dots.svg");
-  background-repeat: no-repeat;
-  background-position-x: calc(50% + 347px);
-  background-position-y: calc(50% + -34px);
 }
 
 .develop__wrapper {
@@ -16,7 +12,7 @@
   font-size: 25px;
   line-height: 187.5%;
   text-align: center;
-  color: #222222;  
+  color: #222222;
 }
 
 .develop-top-box {
@@ -45,5 +41,41 @@
 }
 
 .develop-box {
-  margin-bottom: 165px; 
+  margin-bottom: 165px;
+}
+
+.develop-box img {
+  border-radius: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+
+
+
+}
+
+@media only screen and (max-width: 768px) {
+
+  .develop__wrapper {
+    margin-left: 0;
+  }
+
+  .develop-title {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 187.5%;
+    text-align: center;
+    width: 293px;
+    color: #222222;
+    margin-bottom: 42px;
+  }
+
+  .develop-top-box {
+    display: none;
+  }
+
+  .develop-box img {
+    margin-left: -23px;
+  }
+
 }
