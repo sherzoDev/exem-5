@@ -51,6 +51,29 @@
   padding-right: 31px;
 }
 
+@media only screen and (max-width: 1024px) {
+
+  .hero__wrapper {
+    margin: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero__title {
+    font-size: 43px;
+    width: 100%;
+  }
+
+  .hero__text {
+    line-height: 200%;
+    width: 100%;  
+  }
+
+}
+
 @media only screen and (max-width: 768px) {
   
   .hero {
@@ -100,12 +123,4 @@
     padding-right: 18px;
   }
   
-}
-
-@media only screen and (max-width: 1024px) {
-
-  .hero__wrapper {
-    margin: 0;
-  }
-
 }
