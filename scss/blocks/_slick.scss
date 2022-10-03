@@ -113,3 +113,88 @@
   color: #DC7000;
   margin-right: 12px;
 }
+
+@media only screen and (max-width: 1024px) {
+
+  .slick-prev {
+    top: -92px;
+    left: 500px;
+  }
+
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1150px) {
+
+  .slick-prev {
+    top: -92px;
+    left: 700px;
+  }
+
+}
+
+@media only screen and (min-width: 1150px) and (max-width: 1450px) {
+
+  .slick-prev {
+    top: -92px;
+    left: 900px;
+  }
+
+}
+ 
+@media only screen and (max-width: 768px) {
+
+  .slick-carusel {
+    overflow: hidden;
+  }
+
+  .carusel {
+    width: 299px !important;
+    height: 330px !important;
+    margin-left: 23px;
+  }
+
+  .slick-carusel-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 187.5%;
+    color: #222222;
+  }
+
+  .slick-carusel-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 187.5%;
+    width: 264px;
+    height: 97px;
+    color: #525252;
+  }
+
+  .carusel-text {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 187.5%;
+  }
+
+  .carusel-lorem {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 187.5%;
+  }
+
+  .carusel-box-title {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 187.5%;
+  }
+
+  .slick-next {
+    top: 390px;
+    left: 220px;
+  }
+
+  .slick-prev {
+    top: 390px;
+    left: 150px;
+  }
+
+}
