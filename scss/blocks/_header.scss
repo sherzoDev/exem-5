@@ -120,6 +120,51 @@
     display: none;
   }
 
+  .nav {
+    display: flex;
+  }
+
+  .nav-item {
+    margin-left: 0;
+  }
+
+  .nav-item:nth-child(2),
+  .nav-item:nth-child(3),
+  .nav-item:nth-child(4) {
+    margin-left: 0;
+  }
+
+  .nav-btn {
+    margin-left: 0;
+  }
+
+  .nav {
+    display: flex;
+    justify-content: space-between !important;
+    align-items: center;
+  }
+
+}
+
+@media only screen and (max-width: 1200px)  {
+
+  .nav {
+    display: flex;
+  }
+
+
+
+  .nav-item:nth-child(2),
+  .nav-item:nth-child(3),
+  .nav-item:nth-child(4) {
+    margin-left: 0;
+  }
+
+  .nav {
+    display: flex;
+    justify-content: space-between !important;
+    align-items: center;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -133,6 +178,10 @@
     display: none;
   }
 
+  .header {
+    position: relative;
+  }
+
   .header__btn {
     display: block;
     background-image: url("../images/burger.svg");
@@ -141,9 +190,67 @@
     border: none;
     background-color: transparent;
   }
-  
-  .show-bg.header__btn {
+
+  .show-bg .nav {
+    display: block;
+  }
+
+  .show-bg .header__btn {
     background-image: url("../images/burger-close.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 21px;
+    height: 21px;
+  }
+
+  .nav {
+    position: absolute;
+    background-image: linear-gradient(90.05deg, #E47500 -5.66%, #DF7C14 115.63%);
+    top: 90px;
+    right: 20px;
+    padding: 40px;
+    padding-left: 60px;
+    padding-right: 60px;
+    border-radius: 10px;
+  }
+
+  .nav-item {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  .nav-link {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  .nav-item:nth-child(2),
+  .nav-item:nth-child(3),
+  .nav-item:nth-child(4) {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  .nav-item:nth-child(4) {
+    margin-bottom: 10px;
+  }
+
+  .nav-item:nth-child(1) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nav-btn {
+    margin-left: 0;
+    display: none;
+  }
+
+  .scroll {
+    overflow: hidden;
   }
 
 }

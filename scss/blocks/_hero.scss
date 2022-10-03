@@ -93,6 +93,19 @@
     color: #000000;    
   }
 
+  .hero-btn {
+    padding-top: 13px;
+    padding-bottom: 11px;
+    padding-left: 22px;
+    padding-right: 18px;
+  }
   
-  
+}
+
+@media only screen and (max-width: 1024px) {
+
+  .hero__wrapper {
+    margin: 0;
+  }
+
 }
