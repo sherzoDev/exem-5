@@ -1207,6 +1207,54 @@ body {
   color: #0CBE64;
 }
 
+.carusel-title-box-red-box {
+  background-color: #FBE5E5;
+  padding-top: 8px;
+  padding-left: 14px;
+  width: 140px;
+  height: 39px;
+  border-radius: 8px;
+}
+
+.carusel-box-title-red-box {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 187.5%;
+  color: #DC0000;
+}
+
+.carusel-title-box-rose {
+  background-color: #F6E3FB;
+  padding-top: 8px;
+  padding-left: 14px;
+  width: 140px;
+  height: 39px;
+  border-radius: 8px;
+}
+
+.carusel-box-title-rose {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 187.5%;
+  color: #B000DC;
+}
+
+.carusel-title-box-blue {
+  background-color: #E8F0FC;
+  padding-top: 8px;
+  padding-left: 14px;
+  width: 140px;
+  height: 39px;
+  border-radius: 8px;
+}
+
+.carusel-box-title-blue {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 187.5%;
+  color: #0058DC;
+}
+
 .carusel-lorem {
   font-weight: 600;
   font-size: 20px;
